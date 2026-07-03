@@ -18,6 +18,11 @@ body {
     width: 64px;
 }
 
+#name-link {
+    color: black;
+    text-decoration: underline;
+}
+
 .header-font {
     margin-left: 10px;
     color: white;
@@ -32,6 +37,10 @@ body {
 
 .heavy-font-paragraph {
     font-weight: 900;
+}
+
+.footer-link {
+    color: white;
 }
 
 header {
@@ -50,4 +59,5 @@ main {
 mark {
     font-weight: 400;
     padding: 4px;
+    color: black;
 }
