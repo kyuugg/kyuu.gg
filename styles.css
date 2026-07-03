@@ -1,0 +1,27 @@
+body {
+    background: black;
+    color: white;
+    font-family: "Google Sans Code", sans-serif;
+    margin: 0;
+}
+
+#main-container {
+    width: min(1100px, 70%);
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#header-logo {
+    width: 64px;
+}
+
+.main-paragraph {
+}
+
+main {
+    max-width: 700px;
+    font-size: clamp(16px, 2vw, 20px);
+}
